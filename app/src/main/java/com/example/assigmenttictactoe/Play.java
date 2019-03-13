@@ -52,7 +52,7 @@ public class Play extends AppCompatActivity {
     Animation bounce;
 
 
-    int gameTime = 0;
+    int gTime = 0;
     int lastMove = 0;
 
 
@@ -133,7 +133,7 @@ public class Play extends AppCompatActivity {
 
 
     public void dropIn(View view) throws InterruptedException {
-        gameTime++;
+        gTime++;
 
 
         ImageView counter = (ImageView) view;
